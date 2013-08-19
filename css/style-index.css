@@ -1,0 +1,111 @@
+/* Cinza: #2a2a2a;
+ Cinza Escuro: #1a1a1a;
+ Verde: #55bb58;
+*/
+
+html {
+	height: 100%;
+	font-size: 16px;
+}
+
+body {
+	background: #eee;
+	background-size: auto 4em; 
+	font-size: 16px;
+	min-height: 100%;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+h1 {
+	font-size: 1.5em;
+	font-weight: 100;
+}
+
+h3 {
+	font-size: 0.75em;
+}
+
+h4 {
+	font-size: 1em;
+	font-weight: 300;
+}
+
+p {
+	font-size: 0.75em;
+}
+
+a {
+	text-decoration: none;
+	color: #55bb58;
+}
+
+/*/ HEADER STYLES*/
+
+.session-top {
+	height: 3em;
+	line-height: 3em;
+	background: #55bb58;
+	color: #fff;
+	min-width: 960px;
+	display: block;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+	.session-top a {
+		color: #fff;
+		text-decoration: none;
+	}
+
+	.session-logo {
+		font-family: 'Open Sans Condensed';
+		font-size: 2em;
+		font-weight: 300;
+		float: left;
+	}
+
+	.session-nav {
+		float: left;
+		margin-left: 2em;
+	}
+
+		.session-nav ul {
+			display: inline;
+			margin: 0;
+			padding: 0;
+		}
+
+		.session-nav li {
+			display: inline;
+			margin-right: 1em;
+		}
+
+		.session-nav li a {
+			color: #fff;
+			text-decoration: none;
+		}
+
+	.session-account {
+		padding-top: 1em;
+		float: right;
+		font-size: 0.75em;
+		line-height: 1em;
+	}
+
+	.session-account ul {
+		margin: 0;
+		padding: 0;
+	}
+
+	.session-account li {
+		list-style: none;
+		font-size: 0.83em;
+		text-align: right;
+		float: right;
+		margin-left: 1em;
+	}
