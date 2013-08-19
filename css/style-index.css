@@ -67,6 +67,7 @@ a {
 		font-size: 2em;
 		font-weight: 300;
 		float: left;
+		height: 50px;
 	}
 
 	.session-nav {
@@ -109,3 +110,32 @@ a {
 		float: right;
 		margin-left: 1em;
 	}
+
+
+.img-logo {
+	height: 50px;
+	width: 50px;
+}
+	.img-logo img {
+		height: 50px;
+		width: 50px;
+	}
+
+.img-logo2 {
+	height: 100px;
+	width: 100px;
+}
+	.img-logo2 img {
+		height: 100px;
+		width: 100px;
+	}
+
+.CD a
+{
+	color: #55bb58;
+}
+
+.DVD a
+{
+	color: #55bb58;
+}
