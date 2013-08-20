@@ -141,7 +141,7 @@ a {
 }
 
 .CD-DVD h2 {
-	font-family: 'Open Sans Condensed';
+	font-family: 'Happy Monkey';
 	font-size: 2em;
 	padding-left: 45px;
 }
@@ -151,10 +151,12 @@ a {
 	}
 
 	.CD-DVD ul li {
-		line-height: 27px;
+		line-height: 30px;
 		width: 100px;
 		list-style-type: none;  
 		color: #FFFFFF;
+		font-size: 18px;
+		font-family: The Girl Next Door;
 	}
 
 .login {
@@ -169,7 +171,14 @@ a {
 }
 
 	.login p {
-		font-size: 15px;
+		font-size: 20px;
+		margin-top: -3px;
+		font-family: Crushed;
+	}
+
+	#botao {
+		margin-top: 6px;
+		font-family: Happy Monkey;
 	}
 
 .email {
