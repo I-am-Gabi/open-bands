@@ -188,11 +188,19 @@ a {
 .mais-vendidos {
 	height: 150px;
 	width: 800px;
-	margin-left: 250px;
+	margin-left: 150px;
 }
 
+.product { 
+	width: 720px;
+	margin-left: 200px;
+	float: left;
+}
+
+
+
 	.mais-vendidos ul {
-		display: inline; 
+		display: inline-block; 
 		list-style:none;
 		padding:0px;
 		margin:0px;
@@ -204,7 +212,7 @@ a {
     	margin: 0px auto;
     	padding: 0px 15px; 
 		list-style-type: none; 
-		display: inline;
+		display: inline-block;
 	}
 
 	.mais-vendidos ul li a {
