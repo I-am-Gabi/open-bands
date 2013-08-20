@@ -9,7 +9,10 @@
 	</head>
 	
 	<body> 
+
+		<!-- SESSION -->
 		<div class="session-top">
+
 			<!-- LOGO -->
 			<div class="session-logo">
 				<img src="imagens/microfone-logo2.png">
@@ -21,7 +24,9 @@
 			<nav class="session-nav">
 				<ul>
           			<li><a href="#">HOME</a></li>
-          			<li><a href="#">PRODUTOS</a></li>
+          			<li><a href="#">CDs</a></li> 
+          			<li><a href="#">DVDs</a></li> 
+          			<li><a href="#">MpB</a></li>
           			<li><a href="#">HELP</a></li>
         		</ul>
 			</nav>
@@ -34,71 +39,86 @@
           				<li><a href=""><i class="icon-signout"></i>Logout</a></li>
           				<li><a href="#"><i class="icon-cog"></i>Account Settings</a></li>
           			</ul>
-			</div>
-			<!-- FIM DA SESSION INFOR -->
-
-			<!-- <div class="session-account"> 
-				<%= if usuario.logado == yes %=>
-					Bem-vindo  <%= usuario.name =%>
-					<ul> 
-          				<li><a href=""><i class="icon-signout"></i>Logout</a></li>
-          				<li><a href="#"><i class="icon-cog"></i>Account Settings</a></li>
-        			</ul>
-        		<%= else =%>
-        			<ul>
+          			<!-- ELSE 
+          			<ul>
           				<li><a href=""> <i class="icon-create"></i>Cadastrar</a></li>
-        			</ul>
-        		<%= end =%>
-			</div> -->
-			<!-- FIM SESSION INFOR -->
-
-			<!-- SIDEBAR -->
-			<aside class="sidebar">
-				<!--<div class="img-logo2">
-					<img src="imagens/microfone-logo.png">
-				</div> -->
-				<div class="CD">
-					CD
-					<ul> 
-						<li><a href="#"> Axé </a></li>
-						<li><a href="#"> Clássico </a></li>
-						<li><a href="#"> Sertanejo </a></li>
-						<li><a href="#"> Gospel </a></li>
-						<li><a href="#"> Hard Rock </a></li>
-						<li><a href="#"> Infantil </a></li>
-						<li><a href="#"> Jazz </a></li>
-						<li><a href="#"> MPB </a></li>
-						<li><a href="#"> POP </a></li>
-						<li><a href="#"> Reggae </a></li>
-						<li><a href="#"> Rock </a></li>
-						<li><a href="#"> Samba </a></li>
-						<li><a href="#"> Pagode </a></li>
-					</ul>
-				</div>
-
-				<div class="DVD">
-					DVD
-					<ul> 
-						<li><a href="#"> Axé </a></li>
-						<li><a href="#"> Clássico </a></li>
-						<li><a href="#"> Sertanejo </a></li>
-						<li><a href="#"> Gospel </a></li>
-						<li><a href="#"> Hard Rock </a></li>
-						<li><a href="#"> Infantil </a></li>
-						<li><a href="#"> Jazz </a></li>
-						<li><a href="#"> MPB </a></li>
-						<li><a href="#"> POP </a></li>
-						<li><a href="#"> Reggae </a></li>
-						<li><a href="#"> Rock </a></li>
-						<li><a href="#"> Samba </a></li>
-						<li><a href="#"> Pagode </a></li>
-					</ul>
-				</div>
-
-
-			</aside>
-			<!-- FIM SIDEBAR -->
+        			</ul> -->
+			</div>
+			<!-- FIM DA SESSION INFOR --> 
 
 		</div>
+		<!-- FIM SESSION -->
+
+		<!-- SIDEBAR -->
+		<div class="sidebar">
+			<div class="login">
+				<p> Login </p>
+				<form action="/cadastrar" method="POST">
+ 				Email:<input type="text" name="email" /> 
+ 				Senha: <input type="text" name="senha" />
+				<input type="submit" value="Cadastrar" /> 
+				</form>	
+			</div>  
+			<div class="menu">
+				<div class="CD-DVD"> 
+					<h2>CD/DVD</h2>
+					<ul>  
+						<li><a href="#"> Sertanejo </a></li>
+						<li><a href="#"> Gospel </a></li> 
+						<li><a href="#"> Infantil </a></li> 
+						<li><a href="#"> MPB </a></li>
+						<li><a href="#"> POP </a></li>
+						<li><a href="#"> Reggae </a></li>
+						<li><a href="#"> Rock </a></li>
+						<li><a href="#"> Samba </a></li> 
+					</ul>
+				</div> 
+			</div>
+		</div>
+		<!-- FIM SIDEBAR -->
+
+		<!-- LIST -->
+		<section class="product">
+			<div class="mais-vendidos">
+				<ul class="list-product">
+					<li>
+						<div class="list-cover"></div>
+						<h3>PRODUTO1</h3>
+						<h4> Preço: </h4>
+						<h4> Artista: </h4>
+						<a href="#"></a>
+					</li>
+					<li>
+						<div class="list-cover"></div>
+						<h3>PRODUTO2</h3>
+						<h4> Preço: </h4>
+						<h4> Artista: </h4>
+						<a href="#"></a>
+					</li>
+					<li>
+						<div class="list-cover"></div>
+						<h3>PRODUTO3</h3>
+						<h4> Preço: </h4>
+						<h4> Artista: </h4>
+						<a href="#"></a>
+					</li>
+					<li>
+						<div class="list-cover"></div>
+						<h3>PRODUTO4</h3>
+						<h4> Preço: </h4>
+						<h4> Artista: </h4>
+						<a href="#"></a>
+					</li>
+					<li>
+						<div class="list-cover"></div>
+						<h3>PRODUTO5</h3>
+						<h4> Preço: </h4>
+						<h4> Artista: </h4>
+						<a href="#"></a>
+					</li>
+				</ul>
+			</div>
+		</section>
+		<!-- FIM LIST -->
 	</body>
 </html>
