@@ -131,7 +131,7 @@ a {
 	background: none repeat scroll 0% 0% rgb(42, 42, 42);
 	height: auto;
 	color: rgb(255, 255, 255);
-	float: right;
+	margin-top: -30px;
 }
 
 .menu {
@@ -163,7 +163,6 @@ a {
 .login {
 	border: 1px solid rgb(204, 204, 204);
 	padding: 5px;
-	float: left;
 	width: 13em;
 	margin: 0px 0px 0px 10px;
 	font-size: 12px;
@@ -193,7 +192,8 @@ a {
 }
 
 .product { 
-	width: 270px;
+	width: 720px;
+	margin-left: 200px;
 }
 
 	.mais-vendidos ul {
@@ -229,17 +229,11 @@ a {
 .list-cover {
 	width: 10em;
 	height: 10em;
-	float: left;
+	display: inline-block;
 	background: grey;
 	margin-right: 1em;
 }
+	
 
-.clear {
-	clear: both;
-}
-
-.wrapper {
-	min-width: 1100px;
-}
 
 
