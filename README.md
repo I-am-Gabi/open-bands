@@ -2,4 +2,4 @@
 open-bands
 ==========
 
-Loja virtual e repositC3rio de mC:sica livre.
+Link para apresentação da Documentação do Projeto http://slid.es/gabrielacavalcantedasilva/deck
